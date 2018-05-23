@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Bootstrap Photo Feed</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">    
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6">
+                        <nav class="navbar fixed-top bg-light">
+                            <h1>My Bootstrap Photo Feed</h1>
+                            <!--NEED TO ADD BUTTON AND DROPDOWN SETTINGS MENU TO RIGHT SIDE OF NAVBAR-->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class="container-fluid" style="padding-top:50px;">
+            <div class="row justify-content-center bg-light">
+            <div class="col-12 col-md-6" id="mainContentContainer">
+                
+                <!--FIRST POST-->
+                <div class="card border-0" style="margin-top:30px;">
+                    <div class="card-header bg-transparent">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>My First Puppy Photo</h2>
+                            </div>
+                            <div class="col-6">
+                                <p class="text-right">5/18/18</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="card-img" src="http://via.placeholder.com/600x500" alt="First Puppy Photo">
+                    <div class="card-body">
+                        <div class="row">
+                            <p class="font-weight-bold" style="margin-bottom:0;">100 Likes</p>
+                        </div>
+                        <div class="row">
+                            <p>Double tap if you think this puppy is super cute! REALLY!</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-1">
+                                <p class="font-weight-light" style="margin-bottom:0;">&hearts;</p>
+                            </div>
+                            <div class="col-11">
+                                <p class="font-weight-light" style="margin-bottom:0;">Comment...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--SECOND POST-->
+                <!--SHOULD REMOVE EXTRA CLASS NAMES (FROM OLD PROJECT)?-->
+                <div class="card border-0 postContainer" style="margin-top:30px;">
+                    <div class="card-header bg-transparent postHeaderContainer">
+                        <div class="row postHeaderTitleContainer">
+                            <div class="col-6 postTitle">
+                                <h2>My Second Puppy Photo</h2>
+                            </div>
+                            <div class="col-6 postDate">
+                                <p class="text-right">5/5/18</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="postContentContainer">
+                        <img class="card-img" src="http://via.placeholder.com/600x650" alt="Second Puppy Photo">
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <p class="font-weight-bold" style="margin-bottom:0;">100 Likes</p>
+                        </div>
+                        <div class="row">
+                            <p>Double tap if you think this puppy is super cute!</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-1">
+                                <p class="font-weight-light" style="margin-bottom:0;">&hearts;</p>
+                            </div>
+                            <div class="col-11">
+                                <p class="font-weight-light" style="margin-bottom:0;">Comment...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--THIRD POST-->
+                <div class="card border-0 postContainer" style="margin-top:30px;">
+                    <div class="card-header bg-transparent postHeaderContainer">
+                        <div class="row postHeaderTitleContainer">
+                            <div class="col-6 postTitle">
+                                <h2>Person + Laptop</h2>
+                            </div>
+                            <div class="col-6 postDate">
+                                <p class="text-right">4/15/18</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="postContentContainer">
+                        <img class="card-img" src="http://via.placeholder.com/600x600" alt="Laptop Working">
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <p class="font-weight-bold" style="margin-bottom:0;">100 Likes</p>
+                        </div>
+                        <div class="row">
+                            <p>This is what I look like when I'm acting like I'm working ;)</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-1">
+                                <p class="font-weight-light" style="margin-bottom:0;">&hearts;</p>
+                            </div>
+                            <div class="col-11">
+                                <p class="font-weight-light" style="margin-bottom:0;">Comment...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--FOURTH POST-->
+                <div class="card border-0 postContainer" style="margin-top:30px;">
+                    <div class="card-header bg-transparent postHeaderContainer">
+                        <div class="row postHeaderTitleContainer">
+                            <div class="col-6 postTitle">
+                                <h2>My Lunch Today</h2>
+                            </div>
+                            <div class="col-6 postDate">
+                                <p class="text-right">4/1/18</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="postContentContainer">
+                        <img class="card-img" src="http://via.placeholder.com/600x550" alt="Noodles">
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <p class="font-weight-bold" style="margin-bottom:0;">100 Likes</p>
+                        </div>
+                        <div class="row">
+                            <p>Yes I do eat this well every day. NOT!</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-1">
+                                <p class="font-weight-light" style="margin-bottom:0;">&hearts;</p>
+                            </div>
+                            <div class="col-11">
+                                <p class="font-weight-light" style="margin-bottom:0;">Comment...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        
+    </body>  
+</html>
