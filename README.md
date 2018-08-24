@@ -10,3 +10,6 @@ Feed view:
 Gallery view:
 </br>
 <img src="https://image.ibb.co/cr6GY9/bootstrap_photo_feed_screenshot2.png" alt="photo feed gallery" width="400px" />
+
+The project is available for demo viewing here:
+https://emily-v.github.io/bootstrap-photo-feed/
